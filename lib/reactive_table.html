@@ -41,7 +41,7 @@
               {{#if isVisible}}
                 {{#if isPrimarySortField}}
                   <th class="{{#if isSortable}}sortable {{/if}}{{getHeaderClass}}" fieldid="{{getFieldFieldId}}">
-                    {{#if labelIsTemplate}}{{#with labelData}}{{> ../label}}{{else}}{{> label}}{{/with}}{{else}}{{getLabel}}{{/if}}&nbsp;&nbsp;
+                    {{#if labelIsTemplate}}{{#with labelData}}{{> ../label}}{{else}}{{> label}}{{/with}}{{else}}{{getLabel}}{{/if}}
                     {{#if isAscending}}
                       {{#if ../useFontAwesome}}
                         <i class="fa fa-sort-asc"></i>
